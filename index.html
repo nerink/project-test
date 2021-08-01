@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team 1</title>
+    <link rel="stylesheet" href="./stylesheet.css"/>
+</head>
+
+<body>
+    <div class="row">
+        <h3 class="header">Search By Location</h3>
+        <!--Search City-->
+    <form>
+        <div class="citycontainer">
+            
+            <input type="text" id="searchcity" placeholder="Enter City Name" ></input> 
+            <button class="submit-btn" type="button" id="searchButton"> Search City</button>
+            
+        </div>
+    </form>
+    <br>
+        <!--Searched Cities-->
+        <div class="search-history">
+            <ul class="city-list"></ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
